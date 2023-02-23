@@ -1,0 +1,121 @@
+/* Element Selectors */
+
+body {
+    background-color: #ECF9FF;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #E5BA73;
+    font-family: 'Sacramento', cursive;
+    font-size: 500%;
+}
+
+h2 {
+    color: #C58940;
+    font-family: 'Crimson Pro', serif;
+    font-size: 225%;
+}
+
+h3 {
+    color: #C58940;
+    font-family: 'Crimson Pro', serif;
+}
+
+hr {
+    border-color: #FAEAB1;
+    border-style: dotted;
+    border-width: 10px 0 0 0;
+    height: 0px;
+    padding: 2% 0;
+    width: 10%;
+}
+
+p {
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Class Selectors */
+
+.container-bottom {
+    background-color: #13005A;
+    padding: 2% 0 3% 0;
+}
+
+.container-mid {
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+
+.container-top {
+    background-image: linear-gradient(to bottom, #E3DFFD, #ECF9FF);
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.copyright {
+    color: whitesmoke;
+}
+
+.img-cherry-blossom-right {
+    height: 400px;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    width: 400px;
+}
+
+.img-cherry-blossom-left {
+    height: 400px;
+    left: 5%;
+    position: absolute;
+    transform: scaleX(-1);
+    top: 30%;
+    width: 400px;
+    -webkit-transform: scaleX(-1);
+}
+
+.img-profile {
+    height: 25%;
+    width: 25%;
+}
+
+.img-skill-3d {
+    float: right;
+    height: 15%;
+    width: 15%;
+}
+
+.img-skill-prog {
+    float: left;
+    height: 15%;
+    width: 15%;
+}
+
+.img-skill-webdev {
+    float: left;
+    height: 15%;
+    width: 15%;
+}
+
+.img-social {
+    height: 50px;
+    padding: 0 10px;
+    width: 50px;
+    transition: height 0.25s, width 0.25s;
+}
+
+.img-social:hover {
+    height: 75px;
+    width: 75px;
+}
+
+.intro {
+    padding-bottom: 3%;
+}
+
+.skill-row {
+    padding: 2% 0 5% 0;
+}
